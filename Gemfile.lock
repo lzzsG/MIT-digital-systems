@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/mchanphilly/rouge.git
-  revision: 4e475297bb8f094106a4e740eee65b7e51e389b6
+  revision: a1806370ac59512aedb9a99cc241ee5bc8b3febb
+  branch: feature.bluespec-lexer
   specs:
     rouge (4.1.3)
 

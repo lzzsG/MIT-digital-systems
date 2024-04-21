@@ -1,5 +1,5 @@
 PATH
-  remote: ../rouge
+  remote: rouge
   specs:
     rouge (4.1.3)
 

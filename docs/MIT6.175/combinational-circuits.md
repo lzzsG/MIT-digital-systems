@@ -2,7 +2,7 @@
 layout: page
 title: 组合电路Interfaces
 permalink: /6.004/L111
-nav_order: 11
+nav_order:99
 parent: MIT 6.004 Computation Structures 
 ---
 
@@ -59,15 +59,6 @@ BSV（Bluespec System Verilog）是一种用于硬件设计的强类型语言，
    - 在BSV中，全加器可以通过定义逻辑门操作（如AND、OR和XOR）来实现。BSV的表达式共享特性允许在不同部分的电路中重用相同的逻辑表达式，以减少硬件资源的消耗。
 
 ---
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
----
 
 这一节课的内容主要集中在介绍和设计组合电路和算术逻辑单元（ALU）。
 
@@ -89,7 +80,7 @@ BSV（Bluespec System Verilog）是一种用于硬件设计的强类型语言，
     - ALU是计算机中执行所有算术和逻辑运算的核心部件。
     - 解释了ALU如何根据操作码执行不同的运算，并返回计算结果和比较结果。
 
-课程内容的深入部分还包括了如何将数值从类型世界转换到值世界，如使用`valueOf`函数，以及如何在类型层面上执行数学运算，如使用`TAdd#`等操作符。
+课程内容的深入部分还包括了如何将数值从类型世界转换到值世界，如使用`valueOf`函数                       　  　  　  　            　  　  　  　            　  　  　  　      　      　  　  　  　                         ，以及如何在类型层面上执行数学运算，如使用`TAdd#`等操作符。
 
 总的来说，这节课为学生提供了硬件设计中组合电路的概念，以及如何在BSV语言中实现这些概念的细节，这对于理解现代处理器内部的算术逻辑单元的设计至关重要。
 
@@ -735,3 +726,16 @@ endfunction
 - 长的门延迟链：32位进位链加法器有31个门的长链，32位乘法器按顺序有31个进位链加法器！总延迟是多少？
 
 组合电路的速度由最长的输入到输出路径决定。这导致在设计大型组合电路时，必须仔细考虑延迟和硬件资源的问题。需要考虑是否可以通过顺序电路或带有状态的电路来改善设计。
+
+
+
+---
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>

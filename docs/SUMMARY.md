@@ -13,10 +13,10 @@
   - [L08-Design Tradeoffs in Arithmetic Circuits](./MIT6.004/L08.md)
   - [L09-Sequential Circuits](./MIT6.004/L09.md)
   - [L10-Sequential Circuits: Modules with Guarded Interfaces](./MIT6.004/L10.md)
+  - [L11-Hardware Synthesis in Bluespec](./MIT6.004/L11.md)
 - [MIT 6.175](./MIT6.175.md)
   - [Combinational circuits](./MIT6.175/combinational-circuits.md)
   - [Sequential Circuits](./MIT6.175/sequential-circuits.md)
-  
 - [MIT 6.375](./MIT6.375.md)
 
 [temp](./temp.md)

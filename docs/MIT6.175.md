@@ -1,4 +1,13 @@
-# MIT 6.175 
+---
+layout: page
+title: MIT 6.175 Constructive Computer Architecture
+permalink: /6.175/
+nav_order: 2
+has_children: true
+---
+
+
+# MIT 6.175
 
 # Constructive Computer Architecture
 
@@ -38,4 +47,3 @@ MIT 6.175 课程着重于数字系统的构造，特别是在处理器设计领�
 ### 7. 课程贡献者
 
 - **当前和过去的贡献者**：列出了多位教授和学生，他们为课程的发展做出了贡献。
-

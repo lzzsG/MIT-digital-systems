@@ -1,10 +1,11 @@
 ---
 layout: page
-title: 组合电路Interfaces
-permalink: /6.004/L111
-nav_order:99
-parent: MIT 6.004 Computation Structures 
+title: 1 Combinational Circuits
+permalink: /6.175/L01
+nav_order: 1
+parent: MIT 6.175 Constructive Computer Architecture
 ---
+
 
 
 # 组合电路
@@ -176,7 +177,7 @@ S = a ⊕ b  ，C = a & b
 
 函数定义如下:
 
-```haskell
+```bsv
 function fa(a, b, c_in);
   t = (a ^ b);
   s = t ^ c_in;
@@ -666,7 +667,7 @@ endfunction
 
 ### 比较操作符
 
-```haskell
+```bsv
 function Bool aluBr(Data a, Data b, BrFunc brFunc);
   Bool brTaken = case(brFunc)
     Eq  : (a == b);
@@ -726,8 +727,6 @@ endfunction
 - 长的门延迟链：32位进位链加法器有31个门的长链，32位乘法器按顺序有31个进位链加法器！总延迟是多少？
 
 组合电路的速度由最长的输入到输出路径决定。这导致在设计大型组合电路时，必须仔细考虑延迟和硬件资源的问题。需要考虑是否可以通过顺序电路或带有状态的电路来改善设计。
-
-
 
 ---
 

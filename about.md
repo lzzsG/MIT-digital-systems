@@ -5,6 +5,29 @@ permalink: /about/
 nav_order: 99
 ---
 
+# 更新历史
+
+<br/>
+
+2024/4/22 add 6.004 L11-L12
+
+2024/4/21 rebuild this note site to highlight BSV
+
+2024/4/20 add 6.004 L9-L10, 6.175 Combinational Circuits
+
+2024/4/15 add Introduction and Resources
+
+2024/4/14 add 6.004 L7-L8
+
+2024/4/13 add 6.004 L5-L6
+
+2024/3/25 add 6.004 L1-L4
+
+---
+
+# markdown and highlight test
+
+<br/>
 
 <details open markdown="block">
   <summary>

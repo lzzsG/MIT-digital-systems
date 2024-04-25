@@ -19,17 +19,14 @@ has_children: true
 - **[L02](L02) - RISC-V 汇编 (RISC-V Assembly)**
 - **[L03](L03) - 编译代码、过程及栈 (Compiling Code, Procedures, and Stacks)**
 - **[L04](L04) - 过程和存储映射I/O (Procedures and MMIO)**
-
 - **[L05](L05 ) - 组合逻辑 (Combinational Logic)**
 - **[L06](L06 ) - Barrel Shifter 和 Boolean 优化 (Barrel Shifter, Boolean Optimizations, and Logic Synthesis)**
 - **[L07](L07 ) - 在Bluespec中的复杂组合电路 (Complex Combinational Circuits in Bluespec)**
 - **[L08](L08 ) - 算术电路设计权衡 (Design Tradeoffs in Arithmetic Circuits)**
 - **[L09](L01 ) - 时序电路 (Sequential Circuits)**
 - **[L10]( L01) - 时序电路：带有保护接口的模块 (Sequential Circuits, Modules with Guarded Interfaces)**
-
 - **[L11]( L01) - 在Bluespec中的硬件综合 (Hardware Synthesis in Bluespec)**
 - **[L12]( L01) - 模块接口与并发性 (Module Interfaces and Concurrency)**
-
 - **[L13](L01 ) - 在硬件中实现RISC-V处理器 (Implementing RISC-V Processor in Hardware)**
 - **[L14](L01 ) - 多周期处理器 (Multicycle Processors)**
 - **[L15](L01 ) - 存储层次结构 (The Memory Hierarchy)**
@@ -41,7 +38,6 @@ has_children: true
 - **[L21](L01 ) - 实现流水线 (Implementing Pipelines)**
 - **[L22]( L01) - 同步 (Synchronization)**
 - **[L23]( L01) - 实现处理器流水线 (Implementing Processor Pipelines)**
-
 - **[L24]( ) - 数字抽象和时序约束 (The Digital Abstraction and Sequential Timing Constraints)**
 - **[L25]( ) - 缓存一致性 (Cache Coherence)**
 
